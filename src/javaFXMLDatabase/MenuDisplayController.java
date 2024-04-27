@@ -70,6 +70,7 @@ public class MenuDisplayController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         //intialize array of fxml files 
         fxmlFiles.add(cd("ControlledMovement"));
+        fxmlFiles.add(cd("ControlledMovementWithEntities"));
         //fxmlFiles.add(cd("Store"));
         //create buttons yeh
         createButtons();
